@@ -148,43 +148,6 @@ async function searchWeather(){
     }
     const weatherData = await getWeatherData(searchInput);
     const weekData = calculateWeekWeather(weatherData);
-    // const weekData = [
-    //     {
-    //         "name": "Thursday",
-    //         "temp": "18°C",
-    //         "icon": "partly-cloudy-day"
-    //     },
-    //     {
-    //         "name": "Friday",
-    //         "temp": "18°C",
-    //         "icon": "partly-cloudy-day"
-    //     },
-    //     {
-    //         "name": "Saturday",
-    //         "temp": "18°C",
-    //         "icon": "rain"
-    //     },
-    //     {
-    //         "name": "Sunday",
-    //         "temp": "18°C",
-    //         "icon": "rain"
-    //     },
-    //     {
-    //         "name": "Monday",
-    //         "temp": "18°C",
-    //         "icon": "partly-cloudy-day"
-    //     },
-    //     {
-    //         "name": "Tuesday",
-    //         "temp": "19°C",
-    //         "icon": "cloudy"
-    //     },
-    //     {
-    //         "name": "Wednesday",
-    //         "temp": "19°C",
-    //         "icon": "rain"
-    //     }
-    // ]
     generateWeatherDivContainer(weekData, searchInput);
 }
 
