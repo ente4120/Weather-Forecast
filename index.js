@@ -97,7 +97,7 @@ function setDiv(){
     // Create and Set City Name or Coordinates Title Container
     const cityOrCoordinatesContainer = document.createElement('Div');
     cityOrCoordinatesContainer.id = 'city-or-coordinates-container';
-    divContainer.appendCinhild(cityOrCoordinatesContainer);
+    divContainer.appendChild(cityOrCoordinatesContainer);
 
     // Create and Set Weather Panels Container
     const divPanelsContainer = document.createElement('Div');
